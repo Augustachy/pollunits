@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div class="card text-center">
+    <div class="card-body">
+        <h1>Welcome to Polling Units App</h1>
+<p>This is were you vote</p>
+<a class="btn btn-dark" href="{% url 'pollu:index' %}">View Available Polls</a>
+</div>
+</div>
+
+{% endblock %}
